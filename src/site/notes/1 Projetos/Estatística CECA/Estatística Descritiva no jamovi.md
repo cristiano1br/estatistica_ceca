@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1 Projetos/Estatística CECA/Estatística Descritiva no jamovi/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/1 Projetos/Estatística CECA/Estatística Descritiva no jamovi/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
 # Estatística Descritiva no jamovi
