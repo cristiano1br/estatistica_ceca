@@ -1,7 +1,3 @@
----
-{"dg-publish":true,"permalink":"/1 Projetos/Estatística CECA/Estatística Descritiva no jamovi/","tags":["gardenEntry"],"dg-note-properties":{}}
----
-
 # Estatística Descritiva no jamovi
 
 **Trilha 1 — Dados que sustentam decisões · Módulos I e II**
@@ -17,7 +13,7 @@ Toda vez que você recebe um conjunto de dados novo, a primeira tarefa é encont
 Para sentir por que isso é necessário, abra a aba **«Dados»** da planilha `EC1_monitoramento_broca.xlsx` no jamovi. Ali estão os 10 pontos amostrais do talhão A — Boa Esperança, com o número de entrenós totais e brocados em cada ponto. Olhando linha por linha, dá para perceber que os valores oscilam, mas **só olhar não é uma forma eficaz de entender dados**. Para saber o que os dados estão realmente dizendo, precisamos calcular algumas estatísticas descritivas (é o que este material faz) e desenhar alguns gráficos (assunto do próximo módulo).
 
 
-![Pasted image 20260806143412.png](/img/user/Pasted%20image%2020260806143412.png)
+![[Pasted image 20260806143412.png]]
 
 Depois de calcular a intensidade de infestação (I.I.) de cada ponto do talhão A, os 10 valores são estes:
 
@@ -49,7 +45,7 @@ Fazer essa conta na mão fica tedioso rapidamente quando o número de observaç�
 2. Selecione a variável de interesse (por exemplo, a coluna de I.I. calculada) e clique na seta para movê-la para a caixa **Variables**.
 3. Uma tabela aparece automaticamente no painel de resultados, à direita, já trazendo a média.
 
-![Pasted image 20260806144121.png](/img/user/Pasted%20image%2020260806144121.png)
+![[Pasted image 20260806144121.png]]
 Se você fizer isso com os 10 pontos do talhão A (não só os 5 primeiros), o jamovi mostra:
 
 |I.I. (talhão A)|
@@ -139,7 +135,7 @@ No jamovi, marque a caixa **Percentis**, na seção **Statistics** da tela de De
 |50º percentil (mediana)|5,34|
 |75º percentil (Q3)|5,65|
 
-![Pasted image 20260806151858.png](/img/user/Pasted%20image%2020260806151858.png)
+![[Pasted image 20260806151858.png]]
 
 A amplitude interquartil é $5{,}65 - 5{,}14 = 0{,}51$ pontos percentuais. A forma mais simples de interpretar isso: um quarto dos pontos fica abaixo de 5,14%, um quarto fica acima de 5,65%, e a IQR é a faixa coberta pela "metade do meio" dos dados.
 
@@ -230,7 +226,7 @@ No jamovi, isso é simples:
 3. Mova a variável de agrupamento (`variedade`) para a caixa **Split by**.
 4. A tabela de resultados passa a mostrar uma coluna para cada categoria.
 
-![Pasted image 20260806144452.png](/img/user/Pasted%20image%2020260806144452.png)
+![[Pasted image 20260806144452.png]]
 
 Fazendo isso com a I.I. dividida por variedade, obtemos:
 
